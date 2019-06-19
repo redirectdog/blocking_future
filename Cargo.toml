@@ -3,6 +3,9 @@ name = "blocking_future"
 version = "0.1.0"
 authors = ["Colin Reeder <colin@vpzom.click>"]
 edition = "2018"
+license = "Unlicense"
+description = "A simple wrapper to make using tokio_threadpool::blocking easier"
+repository = "https://github.com/redirectdog/blocking_future"
 
 [dependencies]
 futures = "0.1.27"
