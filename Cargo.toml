@@ -1,0 +1,9 @@
+[package]
+name = "blocking_future"
+version = "0.1.0"
+authors = ["Colin Reeder <colin@vpzom.click>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.1.27"
+tokio-threadpool = "0.1.14"
